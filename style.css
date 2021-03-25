@@ -6,36 +6,27 @@ body{
     background-repeat: no-repeat;
 }
 .container img{
-    margin-top: 5%;
-    max-width: 45%;
-    max-height: 45%;
-    width: 35%;
-    height: 35%;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
 }
 .container a:hover img{
-    width: 45%;
-    height: 45%;
-
+    width: 330px;
+    height: 330px;
 }
 .container{
-    max-height: 100%;
-    max-width: 100%;
-    color: whitesmoke;
-    font-weight: bold;
-    position: absolute;
-    float: none;
+    background: rgb(36, 37, 35);
+    border: solid 10px rgb(32, 32, 32);
+    height: 80vh;
+    width: 80vw;
     top: 50%;
     left: 50%;
-    height: 80%;
-    width: 80%;
-    background: rgb(36, 37, 35);
-    border: rgb(32, 32, 32);
-    border-width: 10px;
-    border-style: solid;
     transform: translate(-50%, -50%);
+    position: absolute;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.container li{
-    display: inline;
-    float: none;
-}
+
